@@ -15,11 +15,11 @@ function TravelInfo({travelInfo}) {
     const lessThan480 = useMediaQuery('(max-width:480px)')
 
     const [additionalInfoOpened, setAdditionalInfoOpened] = useState(false)
-
     const [additionalInformation, setAdditionalInformation] = useState(null)
 
     useEffect(() => {
-        import(`../../cheapTripData/inner_jsons/${travelInfo.route}.json`)
+        // import(`../../cheapTripData/inner_jsons/${travelInfo.route}.json`)
+        import(`../../cheapTripData/${travelInfo.route}.json`)
             .then((res) => setAdditionalInformation(res.default))
             .catch(_ => null);
     }, [travelInfo.route])
