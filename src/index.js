@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import { store } from './redux/store';
+import { store } from './new_achitecture/general/redux/store';
 import './index.css';
 import 'typeface-roboto';
 import App from './App';

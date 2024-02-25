@@ -21,4 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/src/cheapTripData/
+/src/new_achitecture/modules/trip_search/data/jsons/cheapTripData/
