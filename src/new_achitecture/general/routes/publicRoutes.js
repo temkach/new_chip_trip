@@ -1,5 +1,5 @@
 import { MainPage, PassengerPage, BusPage, CarrierPage, TransferPage } from "../../modules";
-import TransferViewComponent from "../../modules/trip_search/domain/entites/TransferCard/TransferView/TransferViewComponent";
+import TransferViewComponent from "@modules/transfer/domain/entites/TransferCard/TransferView/TransferViewComponent";
 import { Contacts } from "../../modules/contacts/presentation/pages";
 import { MainPageComponent } from "../../modules/mainPage/presentation/components/MainPageComponent/MainPageComponent";
 

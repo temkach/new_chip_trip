@@ -1,4 +1,4 @@
-import { getTransfersByFromCityId } from "../../../modules/trip_search/data/firebase/data-service";
+import { getTransfersByFromCityId } from "../../../../data/api/data-service";
 import { loadingTransfersAction } from "./loading-actions";
 import { SET_TRANSFERS } from "./transfers-actions";
 

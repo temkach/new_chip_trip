@@ -5,9 +5,9 @@ import { Drawer, ListItem, List, ListItemText, Container, IconButton } from '@ma
 import CloseIcon from '@material-ui/icons/Close';
 import { menuData } from '../../../../data/menuData/menuData';
 import { useStyles } from '../../../../../../general/MUI/useStyles';
-import i18n from "../../../../../../general/utils/language/i18n";
+import i18n from "../../../../../trip_search/domain/entites/utils/language/i18n";
 import { getSidebar } from '../../../../../../general/redux/selectors';
-import { setSidebarAction } from '../../../../../../general/redux/actions/app-actions';
+import { setSidebarAction } from '@modules/trip_search/presentation/redux/actions/app-actions';
 
 const Sidebar = () => {
   const dispatch = useDispatch();

@@ -4,8 +4,10 @@ import classes from "./CarrierComponent.module.css";
 import { useEffect, useState } from "react";
 import { Formik } from "formik";
 import Autocomplete from "@material-ui/lab/Autocomplete";
-import cities_json from "../../utils/cities.json";
-import i18n from "../../i18n";
+// import cities_json from "../../../../../../general/utils/jsons/cities.json";
+import cities_json from "@general/utils/jsons/cities.json";
+// import i18n from "../../../../../../general/utils/language/i18n";
+import i18n from "@modules/trip_search/domain/entites/utils/language/i18n";
 import TextField from "@material-ui/core/TextField";
 import {
   Checkbox,
@@ -21,12 +23,12 @@ import {
   Select,
   Tooltip,
 } from "@material-ui/core";
-import { getLoading } from "../../redux/selectors";
+import { getLoading } from "../../../../../../general/redux/selectors";
 import axios from "axios";
-import { loadingUploadTransferAction } from "../../redux/actions/loading-actions";
-import { uploadTransfer } from "../../services/data-service";
-import { timeZones } from "../../utils/timezones";
-import { currencies } from "../../utils/currencies";
+import { loadingUploadTransferAction } from "@modules/trip_search/presentation/redux/actions/loading-actions";
+import { uploadTransfer } from "../../../../../trip_search/data/api/data-service";
+import { timeZones } from "../timezones/timezones";
+import { currencies } from "../../CurrenciesSelector/currencies";
 import Button from "@material-ui/core/Button";
 import { LoadingButton } from "@mui/lab";
 import { Alert } from "@mui/material";

@@ -6,7 +6,7 @@ import css from "./MenuTrip.module.css";
 import { useStyles } from "../../../../../../general/MUI/useStyles";
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router';
-import { setSidebarAction } from '../../../../../../general/redux/actions/app-actions';
+import { setSidebarAction } from '@modules/trip_search/presentation/redux/actions/app-actions';
 import { PASSENGER_ROUTE, DRIVER_ROUTE } from '../../../../../../general/utils/constants/constants';
 
 const MenuTrip = () => {

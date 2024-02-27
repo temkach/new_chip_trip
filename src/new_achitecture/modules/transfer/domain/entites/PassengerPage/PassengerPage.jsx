@@ -4,17 +4,17 @@ import i18next from "i18next";
 import FiltersCitiesFrom from "../../../../trip_search/lib/filterSearch/FiltersCitysFrom/FiltersCitiesFrom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
-import { getNextTransfersAction, getTransfersAction } from "../../../../../general/redux/actions/transfers-actions";
+import { getNextTransfersAction, getTransfersAction } from "@modules/trip_search/presentation/redux/actions/transfers-actions";
 import { getLoading, getTransfersData } from "../../../../../general/redux/selectors";
 import Transfer from "../Transfer/Transfer";
 import filtersClasses from "../../../../trip_search/lib/filterSearch/Filter/FilterComponent.module.css";
 import classes from "./PassengerPage.module.css";
 import { useStyles } from "../../../../../general/MUI/useStyles";
-import TransferCardComponent from "../../../../trip_search/domain/entites/TransferCard/TransferCardComponent";
+import TransferCardComponent from "../TransferCard/TransferCardComponent";
 import { LoadingButton } from "@mui/lab";
 import { Alert } from "@mui/material";
-import i18n from "../../../../../general/utils/language/i18n";
-import { PAGE_SIZE } from "../../../../trip_search/data/firebase/data-service";
+import i18n from "../../../../trip_search/domain/entites/utils/language/i18n";
+import { PAGE_SIZE } from "../../../../trip_search/data/api/data-service";
 // import "./PassengerPage.css";
 
 function isNewDesign() {

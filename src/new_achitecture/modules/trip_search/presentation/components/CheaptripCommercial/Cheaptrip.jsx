@@ -1,5 +1,5 @@
 import React from "react";
-import i18n from "../../../../../general/utils/language/i18n";
+import i18n from "../../../domain/entites/utils/language/i18n";
 import Logo_Cht from "./Logo_ChT_2.png";
 import { useStyles } from "../../../../../general/MUI/useStyles";
 import { Grid, Typography } from "@material-ui/core";

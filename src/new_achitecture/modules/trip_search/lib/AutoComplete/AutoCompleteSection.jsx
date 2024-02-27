@@ -4,7 +4,7 @@ import "./AutoComplete.css";
 import { findMyCities } from "./findMyCities";
 import { sortingByString } from "./sortingByString";
 // import { useDispatch } from 'react-redux';
-import i18n from "../../../../general/utils/language/i18n";
+import i18n from "../../domain/entites/utils/language/i18n";
 
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import CloseIcon from "@mui/icons-material/Close";

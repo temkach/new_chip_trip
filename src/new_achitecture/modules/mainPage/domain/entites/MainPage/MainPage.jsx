@@ -1,4 +1,4 @@
-import i18n from "../../../../../general/utils/language/i18n";
+import i18n from "../../../../trip_search/domain/entites/utils/language/i18n";
 import { useHistory } from "react-router-dom";
 import { Button, Grid, Container, Typography } from "@material-ui/core";
 import { useStyles } from "../../../../../general/MUI/useStyles";

@@ -1,9 +1,9 @@
 import React from 'react';
-import LanguageSelector from "../../../../../../general/utils/language/LanguageSelector/LanguageSelector";
+import LanguageSelector from "@modules/trip_search/domain/entites/utils/language/LanguageSelector/LanguageSelector";
 import CurrenciesSelector from "../../../../../transfer/domain/entites/CurrenciesSelector/CurrenciesSelector";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
-import { setSidebarAction } from "../../../../../../general/redux/actions/app-actions";
+import { setSidebarAction } from "@modules/trip_search/presentation/redux/actions/app-actions";
 import { useDispatch } from "react-redux";
 import { useStyles } from "../../../../../../general/MUI/useStyles";
 import css from "./Nav.module.css";

@@ -1,4 +1,4 @@
-import { getNextTransfers, getTransfers, uploadNewTransfer } from "../../../modules/trip_search/data/firebase/data-service";
+import { getNextTransfers, getTransfers, uploadNewTransfer } from "../../../../data/api/data-service";
 import { SET_FILTER_APPLY } from "./filters-actions";
 import {
   loadingNextTransfersAction,

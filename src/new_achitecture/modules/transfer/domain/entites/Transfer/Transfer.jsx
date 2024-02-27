@@ -9,7 +9,7 @@ import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 import "./Transfer.css";
-import i18n from "../../../../../general/utils/language/i18n";
+import i18n from "../../../../trip_search/domain/entites/utils/language/i18n";
 import { useSelector } from "react-redux";
 import { currencies } from "../CurrenciesSelector/currencies";
 import { Tooltip } from "@material-ui/core";

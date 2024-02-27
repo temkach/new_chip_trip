@@ -2,7 +2,7 @@ import React from 'react';
 // import { useStyles } from '../utils/useStyles';
 import { Grid,  Typography } from "@material-ui/core";
 import SocialButtons from '../../../../general/MUI/SocialButtons/SocialButtons';
-import i18n from "../../../../general/utils/language/i18n";
+import i18n from "../../../trip_search/domain/entites/utils/language/i18n";
 
 const Contacts = () => {
   // const classes = useStyles();

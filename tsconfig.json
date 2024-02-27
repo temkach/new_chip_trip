@@ -19,7 +19,11 @@
     "resolveJsonModule": false,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "paths": {
+      "@general/*" : ["./src/new_achitecture/general/*"],
+      "@modules/*" : ["./src/new_achitecture/modules/*"],
+    }
   },
   "include": [
     "src"

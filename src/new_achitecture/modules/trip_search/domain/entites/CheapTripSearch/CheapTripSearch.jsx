@@ -9,7 +9,7 @@ import s from './cheaptrip.module.css'
 import classes from "../../../presentation/components/SearchResult/SearchComponent.module.css";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import {Button} from "@material-ui/core";
-import i18n from "../../../../../general/utils/language/i18n";
+import i18n from "../utils/language/i18n";
 import {lowerCase} from 'lodash';
 import {asyncAutocomplete} from './asyncAutocomplete';
 

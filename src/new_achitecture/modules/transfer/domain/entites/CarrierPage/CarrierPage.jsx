@@ -7,7 +7,7 @@ import TextField from "@material-ui/core/TextField";
 // import CheckBoxIcon from "@material-ui/icons/CheckBox";
 import Autocomplete from "@material-ui/lab/Autocomplete";
 import styles from "./CarrierPage.module.css";
-import { uploadTransfer } from "../../../../trip_search/data/firebase/data-service";
+import { uploadTransfer } from "../../../../trip_search/data/api/data-service";
 import { useHistory } from "react-router-dom";
 import {
   Checkbox,
@@ -26,7 +26,7 @@ import {
   Tooltip,
 } from "@material-ui/core";
 import cities_json from "../../../../../general/utils/jsons/cities.json";
-import i18n from "../../../../../general/utils/language/i18n";
+import i18n from "../../../../trip_search/domain/entites/utils/language/i18n";
 import { useSelector } from "react-redux";
 import { currencies } from "../CurrenciesSelector/currencies";
 import axios from "axios";
@@ -37,7 +37,7 @@ import { getLoading } from "../../../../../general/redux/selectors";
 import { useDispatch } from "react-redux";
 import { LoadingButton } from "@mui/lab";
 import { Alert } from "@mui/material";
-import { loadingUploadTransferAction } from "../../../../../general/redux/actions/loading-actions";
+import { loadingUploadTransferAction } from "@modules/trip_search/presentation/redux/actions/loading-actions";
 
 const schema = yup.object().shape({
   from: yup.string().required("from.Required"),

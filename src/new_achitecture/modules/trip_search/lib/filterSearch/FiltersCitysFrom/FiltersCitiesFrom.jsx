@@ -4,10 +4,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { Button } from "@material-ui/core";
 import FilterComponent from "../Filter/FilterComponent";
 import { getFilters, getInputFromToCity } from "../../../../../general/redux/selectors";
-import { inputFromCityAction, inputToCityAction } from "../../../../../general/redux/actions/inputs-actions";
-import { applyFilterFromCityIdAction } from "../../../../../general/redux/actions/filters-actions";
-import { getTransfersAction } from "../../../../../general/redux/actions/transfers-actions";
-import i18n from "../../../../../general/utils/language/i18n";
+import { inputFromCityAction, inputToCityAction } from "@modules/trip_search/presentation/redux/actions/inputs-actions";
+import { applyFilterFromCityIdAction } from "@modules/trip_search/presentation/redux/actions/filters-actions";
+import { getTransfersAction } from "@modules/trip_search/presentation/redux/actions/transfers-actions";
+import i18n from "../../../domain/entites/utils/language/i18n";
 
 export default function FiltersCitiesFrom() {
     const dispatch = useDispatch();

@@ -6,7 +6,7 @@ import { Sidebar, LanguageSelector } from "../../../../index";
 import CurrenciesSelector from "../../../../transfer/domain/entites/CurrenciesSelector/CurrenciesSelector";
 import { useStyles } from "../../../../../general/MUI/useStyles";
 import css from "./Navbar.module.css";
-import { setSidebarAction } from "../../../../../general/redux/actions/app-actions";
+import { setSidebarAction } from "@modules/trip_search/presentation/redux/actions/app-actions";
 import { NavLink } from "react-router-dom";
 import { getBuildMode } from "../../../data/firebase/config/build-config";
 // import {useTranslation} from "react-i18next";

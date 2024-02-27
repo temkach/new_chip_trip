@@ -6,7 +6,7 @@ export { default as MainPage } from './mainPage/domain/entites/MainPage/MainPage
 export { default as PassengerPage } from './transfer/domain/entites/PassengerPage/PassengerPage';
 export { default as TransferPage } from './transfer/presentation/TransferPage';
 export { default as AppRouter } from '../general/routes/AppRouter/AppRouter';
-export { default as LanguageSelector } from '../general/utils/language/LanguageSelector/LanguageSelector';
+export { default as LanguageSelector } from '@modules/trip_search/domain/entites/utils/language/LanguageSelector/LanguageSelector';
 export { default as CurrenciesSelector } from './transfer/domain/entites/CurrenciesSelector/CurrenciesSelector';
 
 // export { default as HeaderComponent } from './HeaderComponent/HeaderComponent';
