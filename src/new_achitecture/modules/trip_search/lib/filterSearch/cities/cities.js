@@ -1,4 +1,4 @@
-import cities from '../../../../../general/utils/jsons/cities.json';
+import cities from '../../../domain/entites/utils/jsons/cities.json';
 
 export function getCities() {
     return cities;

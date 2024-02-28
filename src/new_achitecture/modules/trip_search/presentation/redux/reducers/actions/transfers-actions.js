@@ -7,7 +7,7 @@ import {
 } from "./loading-actions";
 import _ from "lodash";
 
-export const SET_SAVE_NEW_TRANSFER = "set-save-new-transfer";
+export const SET_SAVE_NEW_TRANSFER = "set-save-new-transferPage";
 export const SET_TRANSFERS = "set-received-transfers";
 export const SET_NEXT_TRANSFERS = "set-received-next-transfers";
 
@@ -72,7 +72,7 @@ export function saveNewTransferAction(transfer) {
           console.log(response);
           // dispatch({
           //   type: SET_SAVE_NEW_TRANSFER,
-          //   payload: { isAdded: true, transfer: response.data },
+          //   payload: { isAdded: true, transferPage: response.data },
           // });
           // history.push("/");
         })

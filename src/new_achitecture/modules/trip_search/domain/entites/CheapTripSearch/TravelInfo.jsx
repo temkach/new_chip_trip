@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import locations from '../../../data/jsons/cheapTripData/locations.json';
 import useMediaQuery from "@mui/material/useMediaQuery";
-import {resultItemStyle} from "../../../presentation/components/SearchResult/style";
+import {resultItemStyle} from "../../../presentation/components/searchResult/style";
 import {Box, Button, Link, Typography} from "@material-ui/core";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Modal from '@mui/material/Modal';

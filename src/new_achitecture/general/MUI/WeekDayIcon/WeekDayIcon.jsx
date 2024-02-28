@@ -4,7 +4,7 @@ import RadioButtonUncheckedIcon from "@material-ui/icons/RadioButtonUnchecked";
 import i18n from "i18next";
 
 export const WeekDayIcon = ({ name, value }) => {
-  console.log("WeekDayIcon name, value: ", name, value, value.selected)
+  console.log("weekDayIcon name, value: ", name, value, value.selected)
   return (
     <>
       <div>

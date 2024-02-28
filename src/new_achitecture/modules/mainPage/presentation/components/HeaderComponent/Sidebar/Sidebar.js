@@ -4,11 +4,11 @@ import { useHistory } from 'react-router';
 import { Drawer, ListItem, List, ListItemText } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
 import i18n from "../../../../../trip_search/domain/entites/utils/language/i18n";
-import { getSidebar } from '../../../../../../general/redux/selectors';
-import { setSidebarAction } from '@modules/trip_search/presentation/redux/actions/app-actions';
+import { getSidebar } from '../../../../../trip_search/presentation/redux/reducers/selectors';
+import { setSidebarAction } from '../../../../../trip_search/presentation/redux/reducers/actions/app-actions';
 import css from "./Sidebar.module.css";
-import MenuTrip from "../MenuTrip/MenuTrip";
-import { MAIN_ROUTE, CONTACTS_ROUTE } from '../../../../../../general/utils/constants/constants';
+import MenuTrip from "../menuTrip/MenuTrip";
+import { MAIN_ROUTE, CONTACTS_ROUTE } from '../../../../../trip_search/domain/entites/utils/constants/constants';
 
 const Sidebar = props => {
   const dispatch = useDispatch();

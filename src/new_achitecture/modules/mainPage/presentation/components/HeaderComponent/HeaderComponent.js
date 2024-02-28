@@ -1,11 +1,11 @@
 import React from 'react';
 import { AppBar, Toolbar } from "@material-ui/core";
-// import { Sidebar } from "..";
-import Sidebar from "./Sidebar/Sidebar";
+// import { sidebar } from "..";
+import Sidebar from "./sidebar/Sidebar";
 import css from "./HeaderComponent.module.css";
-import { LogoHeader } from "./Logos/Logos";
-import Nav from "./Nav/Nav";
-import { MAIN_ROUTE, CONTACTS_ROUTE } from "../../../../../general/utils/constants/constants";
+import { LogoHeader } from "./logos/Logos";
+import Nav from "./nav/Nav";
+import { MAIN_ROUTE, CONTACTS_ROUTE } from "../../../../trip_search/domain/entites/utils/constants/constants";
 import { useLocation } from 'react-router';
 
 const HeaderComponent = () => {

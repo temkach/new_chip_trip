@@ -1,4 +1,4 @@
-import { SET_LOADING, SET_LOADING_NEXT_TRANSFERS, SET_LOADING_TRANSFERS, SET_LOADING_UPLOAD_TRANSFER } from "../actions/loading-actions";
+import { SET_LOADING, SET_LOADING_NEXT_TRANSFERS, SET_LOADING_TRANSFERS, SET_LOADING_UPLOAD_TRANSFER } from "./actions/loading-actions";
 
 const defaultLoadingState = {
   isLoading: false,

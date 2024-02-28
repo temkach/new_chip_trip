@@ -1,7 +1,7 @@
 import { MainPage, PassengerPage, BusPage, CarrierPage, TransferPage } from "../../modules";
-import TransferViewComponent from "@modules/transfer/domain/entites/TransferCard/TransferView/TransferViewComponent";
+import TransferViewComponent from "../../modules/transfer/presentation/transferPage/transferCard/transferView/TransferViewComponent";
 import { Contacts } from "../../modules/contacts/presentation/pages";
-import { MainPageComponent } from "../../modules/mainPage/presentation/components/MainPageComponent/MainPageComponent";
+import { MainPageComponent } from "../../modules/mainPage/presentation/components/mainPageComponent/MainPageComponent";
 
 import {
   MAIN_ROUTE,
@@ -10,12 +10,12 @@ import {
   DRIVER_ROUTE,
   TRANSFER_ROUTE,
   CONTACTS_ROUTE,
-} from "../utils/constants/constants";
+} from "../../modules/trip_search/domain/entites/utils/constants/constants";
 
 export const publicRoutes = [
   // {
   //   path: MAIN_ROUTE,
-  //   Component: MainPage,
+  //   Component: mainPage,
   // },
   {
     path: MAIN_ROUTE,

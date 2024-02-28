@@ -1,5 +1,5 @@
-import { SET_FILTER_APPLY } from "../actions/filters-actions";
-import { SET_NEXT_TRANSFERS, SET_SAVE_NEW_TRANSFER, SET_TRANSFERS } from "../actions/transfers-actions";
+import { SET_FILTER_APPLY } from "./actions/filters-actions";
+import { SET_NEXT_TRANSFERS, SET_SAVE_NEW_TRANSFER, SET_TRANSFERS } from "./actions/transfers-actions";
 
 const receiveTransfersState = {
   isFilterApply: false,

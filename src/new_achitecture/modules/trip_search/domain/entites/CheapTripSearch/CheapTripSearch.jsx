@@ -6,7 +6,7 @@ import fixed_routes from '../../../data/jsons/cheapTripData/fixed_routes.json'
 import flying_routes from '../../../data/jsons/cheapTripData/flying_routes.json'
 import RouteCard from "./RouteCard";
 import s from './cheaptrip.module.css'
-import classes from "../../../presentation/components/SearchResult/SearchComponent.module.css";
+import classes from "../../../presentation/components/searchResult/SearchComponent.module.css";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 import {Button} from "@material-ui/core";
 import i18n from "../utils/language/i18n";

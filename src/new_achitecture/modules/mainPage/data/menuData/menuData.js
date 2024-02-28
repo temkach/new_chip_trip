@@ -1,4 +1,4 @@
-import { MAIN_ROUTE, PASSENGER_ROUTE, DRIVER_ROUTE, CONTACTS_ROUTE } from '../../../../general/utils/constants/constants';
+import { MAIN_ROUTE, PASSENGER_ROUTE, DRIVER_ROUTE, CONTACTS_ROUTE } from '../../../trip_search/domain/entites/utils/constants/constants';
 
 
 export const menuData = [

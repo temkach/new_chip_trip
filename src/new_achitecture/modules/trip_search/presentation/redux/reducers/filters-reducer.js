@@ -1,4 +1,4 @@
-import { SET_FILTERS, SET_SELECT_FILTER } from "../actions/filters-actions";
+import { SET_FILTERS, SET_SELECT_FILTER } from "./actions/filters-actions";
 
 const filtersState = {
     filters: [],

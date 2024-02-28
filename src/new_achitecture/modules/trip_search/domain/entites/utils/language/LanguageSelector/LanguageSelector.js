@@ -1,11 +1,11 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { FormControl, Select, MenuItem } from '@material-ui/core';
-import { useStyles } from '@general/MUI/useStyles';
+import { useStyles } from '../../../../../../../general/mui/useStyles';
 import { languages } from './languages';
 import {useTranslation} from "react-i18next";
-import { getLanguage } from '@general/redux/selectors';
-import { setLanguageAction } from '@modules/trip_search/presentation/redux/actions/app-actions';
+import { getLanguage } from '../../../../../presentation/redux/reducers/selectors';
+import { setLanguageAction } from '../../../../../presentation/redux/reducers/actions/app-actions';
 
 
 

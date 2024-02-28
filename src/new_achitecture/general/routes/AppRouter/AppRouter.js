@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import { publicRoutes } from '../publicRoutes';
-import { MAIN_ROUTE } from '../../utils/constants/constants';
+import { MAIN_ROUTE } from '../../../modules/trip_search/domain/entites/utils/constants/constants';
 
 const AppRouter = () => {
   return (

@@ -1,7 +1,7 @@
 import { makeStyles } from '@material-ui/core';
 import { createTheme } from '@material-ui/core';
 
-// ! Color of Nav header and Nav Sidebar
+// ! Color of nav header and nav sidebar
 const mainColor = "#536dfe";
 const mainColorCeapTrip = "#ff5722";
 
@@ -43,7 +43,7 @@ export const useStyles = makeStyles(theme => ({
     paddingBottom: "80px"
   },
 
-  // !! MainPage
+  // !! mainPage
 
   mainPage: {
     minHeight: "100vh",
@@ -114,7 +114,7 @@ export const useStyles = makeStyles(theme => ({
   },
 
 
-  // !! Sidebar
+  // !! sidebar
 
   sidebarCloseButton: {
     width: "1rem",
@@ -167,7 +167,7 @@ export const theme = createTheme({
 // import { makeStyles } from '@material-ui/core';
 // import { createTheme } from '@material-ui/core';
 
-// // ! Color of Nav header and Nav Sidebar
+// // ! Color of nav header and nav sidebar
 // const mainColor = "#536dfe";
 
 // export const useStyles = makeStyles(theme => ({
@@ -208,7 +208,7 @@ export const theme = createTheme({
 //     paddingBottom: "80px"
 //   },
 
-//   // !! MainPage
+//   // !! mainPage
 
 //   mainPage: {
 //     minHeight: "100vh",
@@ -278,7 +278,7 @@ export const theme = createTheme({
 //     color: "white",
 //   },
 
-//   //!! Sidebar
+//   //!! sidebar
 //   sidebarHeader: {
 //     position: "relative",
 //     backgroundColor: `${mainColor}`,

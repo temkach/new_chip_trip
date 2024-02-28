@@ -3,11 +3,11 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import css from "./MenuTrip.module.css";
-import { useStyles } from "../../../../../../general/MUI/useStyles";
+import { useStyles } from "../../../../../../general/mui/useStyles";
 import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router';
-import { setSidebarAction } from '@modules/trip_search/presentation/redux/actions/app-actions';
-import { PASSENGER_ROUTE, DRIVER_ROUTE } from '../../../../../../general/utils/constants/constants';
+import { setSidebarAction } from '../../../../../trip_search/presentation/redux/reducers/actions/app-actions';
+import { PASSENGER_ROUTE, DRIVER_ROUTE } from '../../../../../trip_search/domain/entites/utils/constants/constants';
 
 const MenuTrip = () => {
   const dispatch = useDispatch();

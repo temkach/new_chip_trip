@@ -40,9 +40,9 @@ firebaseConfig = {
 // } else {
 //   firebaseConfig = {
 //     apiKey: 'AIzaSyAIUNvdpgFHgU0eVhMoEtDLCBpAfSUuEiA',
-//     authDomain: "transfer-buses.firebaseapp.com",
-//     projectId: "transfer-buses",
-//     storageBucket: "transfer-buses.appspot.com",
+//     authDomain: "transferPage-buses.firebaseapp.com",
+//     projectId: "transferPage-buses",
+//     storageBucket: "transferPage-buses.appspot.com",
 //     messagingSenderId: "931946718227",
 //     appId: "1:931946718227:web:4873f29ebbdd23ba484be6"
 //   };
@@ -51,9 +51,9 @@ firebaseConfig = {
 // DEV
 // var firebaseConfig = {
 //     apiKey: 'AIzaSyAIUNvdpgFHgU0eVhMoEtDLCBpAfSUuEiA',
-//     authDomain: "transfer-buses.firebaseapp.com",
-//     projectId: "transfer-buses",
-//     storageBucket: "transfer-buses.appspot.com",
+//     authDomain: "transferPage-buses.firebaseapp.com",
+//     projectId: "transferPage-buses",
+//     storageBucket: "transferPage-buses.appspot.com",
 //     messagingSenderId: "931946718227",
 //     appId: "1:931946718227:web:4873f29ebbdd23ba484be6"
 //   };

@@ -9,9 +9,9 @@ import {Box} from "@material-ui/core";
 import Typography from "@mui/material/Typography";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import SearchResultItem from "../../../presentation/components/SearchResult/SearchResultItem";
+import SearchResultItem from "../../../presentation/components/searchResult/SearchResultItem";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import {resultStyle} from "../../../presentation/components/SearchResult/style";
+import {resultStyle} from "../../../presentation/components/searchResult/style";
 
 function RouteCard({route}) {
     const style = useMediaQuery('(max-width:650px)')

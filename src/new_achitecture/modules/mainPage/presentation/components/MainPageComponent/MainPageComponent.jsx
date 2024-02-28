@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "@material-ui/core";
-import filtersClasses from "../../../../trip_search/lib/filterSearch/Filter/FilterComponent.module.css";
+import filtersClasses from "../../../../trip_search/lib/filterSearch/filter/FilterComponent.module.css";
 import css from "./MainPageComponent.module.css";
 import Logo_Cht from "./Logo_ChT_2.png";
-import { AutoCompleteSection } from "../../../../trip_search/lib/AutoComplete/AutoCompleteSection";
-import CheapTripSearch from "../../../../trip_search/domain/entites/CheapTripSearch/CheapTripSearch";
+import { AutoCompleteSection } from "../../../../trip_search/lib/autoComplete/AutoCompleteSection";
+import CheapTripSearch from "../../../../trip_search/domain/entites/cheapTripSearch/CheapTripSearch";
 
 export const MainPageComponent = () => {
   const SloganMain = () => (

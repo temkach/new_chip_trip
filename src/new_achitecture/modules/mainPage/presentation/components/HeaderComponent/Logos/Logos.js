@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import { MAIN_ROUTE, PASSENGER_ROUTE } from "../../../../../../general/utils/constants/constants";
+import { MAIN_ROUTE, PASSENGER_ROUTE } from "../../../../../trip_search/domain/entites/utils/constants/constants";
 import { getBuildMode } from "../../../../data/firebase/config/build-config";
 import css from "./Logos.module.css";
 

@@ -1,11 +1,11 @@
 import React from 'react';
-import LanguageSelector from "@modules/trip_search/domain/entites/utils/language/LanguageSelector/LanguageSelector";
-import CurrenciesSelector from "../../../../../transfer/domain/entites/CurrenciesSelector/CurrenciesSelector";
+import LanguageSelector from "../../../../../trip_search/domain/entites/utils/language/LanguageSelector/LanguageSelector";
+import CurrenciesSelector from "../../../../../transfer/presentation/currenciesSelector/CurrenciesSelector";
 import { IconButton } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
-import { setSidebarAction } from "@modules/trip_search/presentation/redux/actions/app-actions";
+import { setSidebarAction } from "../../../../../trip_search/presentation/redux/reducers/actions/app-actions";
 import { useDispatch } from "react-redux";
-import { useStyles } from "../../../../../../general/MUI/useStyles";
+import { useStyles } from "../../../../../../general/mui/useStyles";
 import css from "./Nav.module.css";
 
 const Nav = () => {
@@ -15,7 +15,7 @@ const Nav = () => {
     return (
         <nav className={css.nav}>
             {/* <LanguageSelector />
-            <CurrenciesSelector /> */}
+            <currenciesSelector /> */}
             <IconButton
                 onClick={() => dispatch(setSidebarAction(true))}
                 edge="end"
